@@ -51,8 +51,9 @@ body {
 }
 
 .donate-amount {
-    height: 600px;
+    height: 500px;
     position: relative;
+    margin-bottom: 100px;
 
 }
 
@@ -113,6 +114,41 @@ body {
 }
 
 .donate-plan {
-    width: 600px;
-    background-color: #f4abad;
+    height: 600px;
+    /* display: inline-block; */
+
+}
+
+.heading-plan {
+    text-align: center;
+    font-size: 50px;
+}
+
+.para-plan {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    opacity: .8;
+}
+
+.plan-card {
+    display: flex;
+}
+
+.plan-box {
+    height: 300px;
+    margin: 50px;
+}
+
+#card1 {
+    background-color: rgb(243, 209, 215);
+}
+
+#card2 {
+    background-color: rgb(205, 205, 178);
+}
+
+#card3 {
+    background-color: #f7babc;
 }
