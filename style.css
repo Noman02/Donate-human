@@ -115,8 +115,7 @@ body {
 
 .donate-plan {
     height: 600px;
-    /* display: inline-block; */
-
+    position: relative;
 }
 
 .heading-plan {
@@ -134,21 +133,185 @@ body {
 
 .plan-card {
     display: flex;
+    height: 400px;
 }
 
 .plan-box {
+    width: 100%;
     height: 300px;
     margin: 50px;
+    border-radius: 5px;
 }
 
 #card1 {
-    background-color: rgb(243, 209, 215);
+    background-color: rgb(250, 224, 228);
+
 }
+
 
 #card2 {
-    background-color: rgb(205, 205, 178);
+    background-color: rgb(236, 222, 222);
 }
 
+
 #card3 {
-    background-color: #f7babc;
+    background-color: #f7dbdc;
+}
+
+img {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.headline {
+    padding: 15px;
+}
+
+.head-para {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500px;
+    opacity: .6;
+
+}
+
+.your-donate {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+#donate-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.depend-you {
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: 700px;
+}
+
+.depend-para {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600px;
+    opacity: .7;
+}
+
+.button3 {
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.they-need-us {
+    display: flex;
+
+}
+
+.need-photo {
+    width: 100%;
+    height: 70%;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+.need-headline {
+    font-size: 50px;
+    font-weight: 700px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.need-para {
+    font-size: 20px;
+    font-weight: 600px;
+    margin-left: 10%;
+    margin-right: 5%;
+    opacity: .7;
+}
+
+.update {
+    text-align: center;
+    font-size: 50px;
+
+    font-weight: 700px;
+}
+
+.update-para {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.email-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 15%;
+    background-color: pink;
+}
+
+.email-box {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.email-box input {
+    font-size: 18px;
+    color: gray;
+    border-radius: 8px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(207, 198, 198);
+
+}
+
+.email-box button {
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightsalmon;
+
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(53, 53, 91);
+}
+
+.humble {
+    text-align: center;
+    font-size: 40px;
+    color: deeppink;
+    font-family: 'Pacifico', cursive;
+}
+
+.gonna-para {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600px;
+
 }
